@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/stripe-hero-background-effect-html-css.png?fit=1062%2C631&ssl=1);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /*header section*************************/
+
+
+
+        .section {
+            display: flex;
+            flex-direction: row;
+            border-radius: 30px;
+            margin: 2px;
+            padding: 2px;
+            background-color: rgba(15, 12, 12, 0.219);
+            opacity: 2px;
+        }
+
+        #hed {
+            text-decoration: none;
+        }
+
+        .he {
+
+            margin: 14px;
+            padding: 8px;
+            color: #cddc39;
+            list-style: none;
+            font-size: 20px;
+
+        }
+
+        #navbar {
+            text-decoration: none;
+            color: gold;
+        }
+
+        #navbar:hover {
+            background-color: red;
+        }
+
+        /*info section***********************************/
+        h1 {
+            text-align: center;
+            font-size: 55px;
+            font-family: cursive;
+            padding: 53px;
+
+            animation: rotate2 1s linear infinite alternate;
+
+        }
+
+        @keyframes rotate2 {
+
+            from {
+                transform: rotate(-5deg);
+                color: rgb(30, 19, 189);
+            }
+
+            to {
+                transform: rotate(5deg);
+                color: red;
+            }
+
+        }
+
+        p {
+            color: rgb(39 43 195);
+            text-shadow: 1px 1px black;
+            text-align: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serifs;
+
+        }
+
+        h3 {
+
+            text-align: center;
+            font-size: 20px;
+            font-family: serif;
+            padding: 30px;
+            animation: rotate 2s linear infinite alternate;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate3d(0, 1, 0, 90deg);
+                color: rgb(23, 20, 207);
+            }
+
+            to {
+                color: rgb(233, 5, 5);
+            }
+
+        }
+
+        /*content section******************/
+
+        .material {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            /*  position: relative;
+    top: 114px;
+    left: 168px;*/
+        }
+
+        #mid {
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+            margin: 13px;
+            padding: 24px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: rgba(22, 189, 189, 0.548);
+
+            animation: bcolor 2s linear infinite alternate;
+        }
+
+        #mid:hover {
+
+            background-color: rgb(218, 205, 37);
+        }
+
+        @keyframes bcolor {
+            from {
+
+                box-shadow: 3px 3px black;
+
+            }
+
+            to {
+                border-radius: 50px;
+                box-shadow: 3px 3px black;
+
+            }
+
+        }
+
+        .mlist {
+            list-style: none;
+        }
+
+        /***button and input section***************************/
+
+
+        input {
+            border: 1px;
+            border-style: solid;
+            border-radius: 20px;
+            display: inline-block;
+            position: relative;
+            top: -531px;
+            left: 617px;
+            width: 125px;
+        }
+
+        button {
+            display: inline-block;
+            position: relative;
+            border: 1px;
+            border-style: solid;
+            top: -531px;
+            left: 427px;
+            width: 48px;
+            font-size: 11px;
+        }
+    </style>
+    <title>codes download</title>
+</head>
+
+<body>
+    <header>
+        <ul class="section">
+            <li id="hed" class="he"><a id="navbar" href="">Home</a></li>
+            <li id="hed" class="he"><a id="navbar" href="https://www.instagram.com/___yash_u_/">Instagram</a></li>
+            <li id="hed" class="he"><a id="navbar"
+                    href="https://www.facebook.com/profile.php?id=100014841188677">Facebook</a></li>
+            <li id="hed" class="he"><a id="navbar"
+                    href="https://drive.google.com/file/d/1p66bjss_W9V-N04mn2Z2cpMwMYPY4Nut/view?usp=sharing">Codes</a>
+            </li>
+        </ul>
+    </header>
+    <span class="info">
+        <h1>MyCodes.com</h1>
+        <p>Here any programming language's codes is available</p>
+        <h3>Click to download</h3>
+    </span>
+    <span class="content">
+
+        <ul class="material">
+            <li class="mlist"><a id="mid"
+                    href="https://drive.google.com/file/d/1t79XlZpU0iXxEsJVc8iU4dle4elBjSl9/view?usp=sharing">C</a></li>
+            <li class="mlist"><a id="mid"
+                    href="https://drive.google.com/file/d/1qD0opZZS4G8ZgJFuIWG4jxCi1DYRum89/view?usp=sharing">Cpp</a>
+            </li>
+            <li class="mlist"><a id="mid"
+                    href="https://drive.google.com/file/d/1sXioYpa1jPclTeaUvTEC264i7VjUwGLD/view?usp=sharing">Java</a>
+            </li>
+            <li class="mlist"><a id="mid" href="">Oops</a></li>
+            <li class="mlist"><a id="mid"
+                    href="https://drive.google.com/file/d/1pMO8swovm2iA1lgS2QelrIhOVMp-AKy8/view?usp=sharing">Html</a>
+            </li>
+            <li class="mlist"><a id="mid" href="">Css</a></li>
+        </ul>
+    </span>
+    <input type="Search" placeholder="Search Photos">
+    <button>Search</button>
+
+</body>
+
+</html>
